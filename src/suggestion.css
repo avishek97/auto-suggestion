@@ -1,0 +1,38 @@
+input,button{
+    padding: 4px;
+    font-size: 20px;
+}
+.suggestion{
+    
+    width: 328px;
+    max-height: 200px;
+    box-shadow: 3px 3px 8px #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5em;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.wrapper{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    margin: 200px 500px auto;
+}
+.result{
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.result:hover{
+    background-color: #eee;
+}
+
+.google{
+    font-size: 100px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
